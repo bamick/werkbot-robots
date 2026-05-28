@@ -1,0 +1,247 @@
+{
+  "roster": [
+    {
+      "id": "p1",
+      "name": "Abigail",
+      "gender": "girl",
+      "skillRating": 6,
+      "willingGoalie": false,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p2",
+      "name": "Alexander",
+      "gender": "boy",
+      "skillRating": 8,
+      "willingGoalie": false,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p3",
+      "name": "Allie",
+      "gender": "girl",
+      "skillRating": 7,
+      "willingGoalie": true,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense",
+        "goalie"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p4",
+      "name": "Amari",
+      "gender": "boy",
+      "skillRating": 7,
+      "willingGoalie": false,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p5",
+      "name": "Bennett",
+      "gender": "boy",
+      "skillRating": 7,
+      "willingGoalie": false,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p6",
+      "name": "Christopher",
+      "gender": "boy",
+      "skillRating": 2,
+      "willingGoalie": false,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p7",
+      "name": "Claire",
+      "gender": "girl",
+      "skillRating": 4,
+      "willingGoalie": false,
+      "preferredPositions": [
+        "defense",
+        "midfield"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p8",
+      "name": "Corinne",
+      "gender": "girl",
+      "skillRating": 6,
+      "willingGoalie": false,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p9",
+      "name": "Daniel",
+      "gender": "boy",
+      "skillRating": 6,
+      "willingGoalie": false,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p10",
+      "name": "Elliot",
+      "gender": "boy",
+      "skillRating": 3,
+      "willingGoalie": false,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p11",
+      "name": "Fitz",
+      "gender": "boy",
+      "skillRating": 7,
+      "willingGoalie": true,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense",
+        "goalie"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p12",
+      "name": "Logan",
+      "gender": "boy",
+      "skillRating": 8,
+      "willingGoalie": true,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense",
+        "goalie"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p13",
+      "name": "Oliver",
+      "gender": "boy",
+      "skillRating": 6,
+      "willingGoalie": false,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p14",
+      "name": "Poppy",
+      "gender": "girl",
+      "skillRating": 8,
+      "willingGoalie": true,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense",
+        "goalie"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p15",
+      "name": "RJ",
+      "gender": "boy",
+      "skillRating": 9,
+      "willingGoalie": false,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p16",
+      "name": "Roman",
+      "gender": "boy",
+      "skillRating": 8,
+      "willingGoalie": true,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense",
+        "goalie"
+      ],
+      "notes": "",
+      "active": true
+    },
+    {
+      "id": "p17",
+      "name": "Wesley",
+      "gender": "boy",
+      "skillRating": 6,
+      "willingGoalie": true,
+      "preferredPositions": [
+        "defense",
+        "midfield",
+        "offense",
+        "goalie"
+      ],
+      "notes": "",
+      "active": true
+    }
+  ]
+}
