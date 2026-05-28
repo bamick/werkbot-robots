@@ -270,13 +270,19 @@ function regenerateLaterQuarterAssignments(
     startShiftIndex + 1,
   );
 
+  const generatedAssignments = buildQuarterAssignmentsFromLineups(
+    roster,
+    generated,
+    settings,
+  );
+
   const nextAssignments = { ...quarterAssignments };
   roster.forEach((player) => {
     generated.forEach((shift) => {
       const shiftLabel = shiftLabels[shift.shiftIndex];
       nextAssignments[player.id] = {
         ...nextAssignments[player.id],
-        [shiftLabel]: getShiftAssignmentLabel(player, shift),
+        [shiftLabel]: generatedAssignments[player.id][shiftLabel],
       };
     });
   });
