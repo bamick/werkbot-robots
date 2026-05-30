@@ -1297,7 +1297,11 @@ export default function Home() {
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-slate-200">
-                      {activePlayers.map((player) => {
+                      {[...activePlayers].sort((a, b) => {
+                        const aOut = gameStatus.find((s) => s.playerId === a.id)?.unavailable ?? false;
+                        const bOut = gameStatus.find((s) => s.playerId === b.id)?.unavailable ?? false;
+                        return Number(aOut) - Number(bOut);
+                      }).map((player) => {
                         const status = gameStatus.find((item) => item.playerId === player.id);
                         const assignment = quarterAssignments[player.id] ?? {}
                         return (
