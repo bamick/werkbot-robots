@@ -790,7 +790,7 @@ export default function Home() {
                     <div className="grid grid-cols-[1.8fr_0.8fr_0.9fr_0.8fr_0.8fr_0.8fr] gap-0 border-b border-slate-200 bg-slate-100 px-4 py-3 text-xs uppercase tracking-[0.18em] text-slate-500">
                       <span>Name</span>
                       <span>Gender</span>
-                      <span>Skill</span>
+                      <span></span>
                       <span>Goalie</span>
                       <span>Positions</span>
                       <span>Actions</span>
@@ -824,7 +824,7 @@ export default function Home() {
                             type="number"
                             min={1}
                             max={10}
-                            className="rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-sky-500 focus:ring-4 focus:ring-sky-100"
+                            className="sr-only"
                             value={player.skillRating}
                             onChange={(event) => {
                               const skill = clampNumber(Number(event.target.value), 1, 10);
